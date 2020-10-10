@@ -1,0 +1,21 @@
+public class integer{
+	public static void main(String[] args){
+	int bilBulat;
+	short bilShort;
+	long bilLong;
+	byte bilByte;
+	
+		bilBulat = 1234567;			// –2,147,483,648 to 2,147,483, 647 
+		bilShort = -12344;			// –32,768 to 32,767
+		bilLong = 1234547567; 	/* 
+										–9,223,372,036,854,775,808 to 
+										9,223,372,036,854,775,8078 */
+		bilByte = 120;				// -128 to 127
+		
+		System.out.println(bilBulat);
+		System.out.println(bilShort);
+		System.out.println(bilLong);
+		System.out.println(bilByte);
+		
+	}
+}
